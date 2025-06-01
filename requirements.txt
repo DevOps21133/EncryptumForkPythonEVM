@@ -1,0 +1,195 @@
+# Encryptum Clone - Project Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core cryptography
+cryptography>=41.0.0
+
+# IPFS integration
+ipfshttpclient>=0.8.0a2
+
+# Model Context Protocol
+mcp>=1.0.0
+
+# HTTP requests and utilities
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# JSON handling (usually built-in, but ensuring compatibility)
+# json is built-in to Python
+
+# GUI dependencies (tkinter is usually built-in on Windows)
+# tkinter comes with Python standard library
+
+# Development and testing dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Logging enhancements
+colorlog>=6.7.0
+
+# File type detection
+python-magic-bin>=0.4.14; sys_platform == "win32"
+python-magic>=0.4.27; sys_platform != "win32"
+
+# Progress bars for CLI
+tqdm>=4.65.0
+
+# Date/time utilities
+python-dateutil>=2.8.0
+
+# System utilities
+psutil>=5.9.0
+
+# Additional crypto utilities
+pycryptodome>=3.18.0
+
+# YAML configuration support (optional)
+PyYAML>=6.0
+
+# Command line interface enhancements
+click>=8.1.0
+rich>=13.0.0
+
+# Optional: Web server for additional endpoints
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Optional: Database support for advanced file tracking
+sqlite3
+# sqlite3 is built-in to Python
+
+# Optional: Advanced file operations
+pathlib
+# pathlib is built-in to Python 3.4+
+
+# Optional: JSON schema validation
+jsonschema>=4.17.0
+
+# Platform-specific dependencies
+pywin32>=306; sys_platform == "win32"
+
+# Optional: Enhanced clipboard support
+pyperclip>=1.8.0
+
+# Optional: QR code generation for sharing CIDs
+qrcode>=7.4.0
+Pillow>=10.0.0
+
+# Optional: Network utilities
+netifaces>=0.11.0
+
+# Optional: Configuration management
+configparser
+# configparser is built-in to Python
+
+# Optional: Advanced hashing
+hashlib
+# hashlib is built-in to Python
+
+# Optional: Base64 encoding/decoding
+base64
+# base64 is built-in to Python
+
+# Optional: Temporary file handling
+tempfile
+# tempfile is built-in to Python
+
+# Optional: Operating system interface
+os
+# os is built-in to Python
+
+# Optional: System-specific parameters
+sys
+# sys is built-in to Python
+
+# Optional: Regular expressions
+re
+# re is built-in to Python
+
+# Optional: Threading support
+threading
+# threading is built-in to Python
+
+# Optional: Time utilities
+time
+# time is built-in to Python
+
+# Optional: Data classes (Python 3.7+)
+dataclasses; python_version < "3.7"
+
+# Optional: Type hints
+typing
+# typing is built-in to Python 3.5+
+
+# Optional: Asynchronous I/O
+asyncio
+# asyncio is built-in to Python 3.4+
+
+# Optional: Logging
+logging
+# logging is built-in to Python
+
+# Optional: JSON handling
+json
+# json is built-in to Python
+
+# Optional: Collections
+collections
+# collections is built-in to Python
+
+# Optional: Itertools
+itertools
+# itertools is built-in to Python
+
+# Optional: Functools
+functools
+# functools is built-in to Python
+
+# Optional: Math operations
+math
+# math is built-in to Python
+
+# Optional: Random number generation
+random
+# random is built-in to Python
+
+# Optional: String operations
+string
+# string is built-in to Python
+
+# Version pinning for stability (uncomment if needed)
+# cryptography==41.0.7
+# ipfshttpclient==0.8.0a2
+# mcp==1.0.0
+# requests==2.31.0
+# python-dotenv==1.0.0
+
+
+
+
+
+
+
+# Encryptum Clone - Essential Requirements
+# Python 3.7+ required
+
+# Core Dependencies
+cryptography>=41.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Blockchain
+web3>=6.0.0
+eth-account>=0.10.0
+eth-utils>=2.3.0
+
+# GUI (tkinter comes with Python)
+# tkinter is included in Python standard library
+
+# Optional but recommended
+colorlog>=6.7.0

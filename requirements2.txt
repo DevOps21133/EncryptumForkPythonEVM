@@ -1,0 +1,24 @@
+# System Requirements
+
+## Prerequisites
+
+### 1. Python 3.7+
+- Download from: https://www.python.org/downloads/
+- Verify: `python --version`
+
+### 2. IPFS Desktop
+- **REQUIRED**: Download from https://docs.ipfs.tech/install/ipfs-desktop/
+- Install and ensure IPFS daemon is running
+- Default API port: 5001
+
+### 3. Git (optional)
+- For cloning the repository
+- Download from: https://git-scm.com/
+
+## Quick Install
+
+```bash
+# 1. Install IPFS Desktop (see link above)
+# 2. Start IPFS daemon
+# 3. Install Python packages:
+pip install -r requirements.txt
